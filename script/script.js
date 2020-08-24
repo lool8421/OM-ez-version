@@ -31,7 +31,7 @@ const factorCostExp = [2, 1.5, 1.5, 1.5, 1.4, 1.5, 1.6, 100];
 const bupUpgradeCosts = [
   1,1,1,10,
   5,2,2,21,
-  72,73,8,72,
+  72,73,8,66,
   53,30,30,324,
   Infinity,Infinity,6e6,1e7,
   Infinity,Infinity,2e14,1e16
