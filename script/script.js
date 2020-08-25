@@ -42,8 +42,8 @@ let buptotalMute = 1;
 const challengeGoals = [
   [1e32, 1e223, 5e270,Infinity],
   [5e270, V(10) + 1e270, V(17) + 1e270,Infinity],
-  [1e200, 1e214, 1e256,Infinity],
-  [1e33, 5e113, 1.5e119,Infinity],
+  [1e100, 1e210, 1e230,Infinity],
+  [1e33, 1e110, 1e119,Infinity],
   [1e122, 3.33e136, 1e219,Infinity],
   [1.02e33, 1e44, 4.75e108,Infinity],
   [1.05e13, 4.18e18, 1.02e20,Infinity],
