@@ -44,7 +44,7 @@ const challengeGoals = [
   [5e270, V(10) + 1e270, V(17) + 1e270,Infinity],
   [1e100, 1e210, 1e230,Infinity],
   [1e33, 1e110, 1e119,Infinity],
-  [1e122, 3.33e136, 1e219,Infinity],
+  [1e120, 3e130, 1e210,Infinity],
   [1.02e33, 1e44, 4.75e108,Infinity],
   [1.05e13, 4.18e18, 1.02e20,Infinity],
   [3.0e10, 6.0e10, 2.4e11, Infinity],
