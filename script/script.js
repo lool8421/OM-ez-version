@@ -23,7 +23,7 @@ const factorShiftCosts = [
   10000,
   1e10,
   1e20,
-  5e31,
+  1e32,
   1.095e272,
   Infinity
 ];
