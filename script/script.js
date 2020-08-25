@@ -41,7 +41,7 @@ let totalMult = 1;
 let buptotalMute = 1;
 const challengeGoals = [
   [1e32, 1e223, 5e270,Infinity],
-  [5e270, V(10) + 1e270, V(17) + 1e270,Infinity],
+  [5e270, V(6) + 1e270, V(12) + 1e270,Infinity],
   [1e100, 1e210, 1e230,Infinity],
   [1e33, 1e110, 1e119,Infinity],
   [1e120, 3e130, 1e210,Infinity],
