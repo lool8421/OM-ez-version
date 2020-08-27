@@ -585,9 +585,9 @@ function render() {
       get("infinityButton2").innerHTML = `+${infinityButtonText}`;
   } else {
     get("infinityButton").innerHTML =
-      `Reach ${(game.leastBoost <= 15 ? (game.leastBoost <= 1.5 ? 10 : 100) : 10240)} to Markup`;
+      `Reach ${(game.leastBoost <= 22 ? (game.leastBoost <= 1.5 ? 10 : 100) : 10240)} to Markup`;
     get("infinityButton2").innerHTML =
-      `Reach ${(game.leastBoost <= 15 ? (game.leastBoost <= 1.5 ? 10 : 100) : 10240)} to Markup`;
+      `Reach ${(game.leastBoost <= 22 ? (game.leastBoost <= 1.5 ? 10 : 100) : 10240)} to Markup`;
   }
   get("challengeSubTab").style.display = game.upgrades.includes(4)
     ? "inline-block"
