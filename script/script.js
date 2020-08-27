@@ -531,7 +531,7 @@ function render() {
   game.canInf =
     game.ord >= game.base ** 3 ||
     outSize >=
-      (game.leastBoost <= 15 ? (game.leastBoost <= 1.5 ? 10 : 100) : 10240) ||
+      (game.leastBoost <= 22 ? (game.leastBoost <= 1.5 ? 10 : 100) : 10240) ||
     outSize >= Infinity;
   let ordLevel=Number(getPsi(game.ord))
   if (ordLevel > game.bestPsi && ordLevel != 1) {
