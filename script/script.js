@@ -425,7 +425,7 @@ function loop(unadjusted, off = 0) {
     }
   }
   game.cAutoLoop.shift +=
-    game.leastBoost <= 12 && game.cAutoOn.shift === 1
+    game.leastBoost <= 18 && game.cAutoOn.shift === 1
       ? (ms / 1000) * game.shiftAuto.toNumber()
       : 0;
   if (game.cAutoLoop.shift >= 1) {
@@ -433,7 +433,7 @@ function loop(unadjusted, off = 0) {
     game.cAutoLoop.shift %= 1;
   }
   game.cAutoLoop.boost +=
-    game.leastBoost <= 12 && game.cAutoOn.boost === 1
+    game.leastBoost <= 18 && game.cAutoOn.boost === 1
       ? (ms / 1000) * game.boostAuto.toNumber()
       : 0;
   if (game.cAutoLoop.boost >= 1) {
